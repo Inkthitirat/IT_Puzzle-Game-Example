@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.blue-background {
+  background-color: #ffce99;
+}
+
+.white-background {
+  background-color: white;
+}
+
+input[type="text"] {
+  width: 5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.ans-block {
+  padding-top: 2em;
+  text-align: center;
+  justify-content: center;
+}
+
+.tutorial-button {
+  cursor: pointer;
+}
+
+.tutorail-block {
+  background-color: aquamarine;
+  display: none;
+}
+
+.hint-input {
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  width: 3em;
+  position: relative;
+  top: -4em;
+  line-height: 2em;
+}
+
+.hint-label {
+  text-align: center;
+  display: inline-block;
+  width: 3em;
+  margin-right: 0.5em;
+  padding-top: 2.5em;
+}
+
+.space {
+  width: 2em;
+}
